@@ -38,7 +38,9 @@ Example: `'code/sites/all/themes/jbc_bootstrap_subtheme/css/'`
 `watch`
 
 An array of directories to watch and sync. Should contain objects with the `watch_dir` and `target` keys. 
+
 Example:
+
     [
         {
             target: 'code/sites/all/themes/jbc_bootstrap_subtheme/css/',
