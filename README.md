@@ -1,21 +1,21 @@
-#Pantheon Sync Helper
+# Pantheon Sync Helper
 
 This is a small utility that you can use to rsync your files between your local machine and pantheon, when pantheon is in sftp mode. 
 
-##Useage
+## Useage
 
 1. Create a new `pantheon-config.js` file in the top level directory of your project. 
 2. Run `pantheon-watch`
 3. Done
 
-##Installation
+## Installation
 
 1. Clone this repository to your system
 2. Symlink to the index.js file to a directory in your path. 
 3. Example: `ln -s ~/src/pantheon-watch/index.js ~/bin/pantheon-watch`
 
 
-##Config File. 
+## Config File. 
 
 `port`
 This is the ssh port that rsync command should run through. You can find this in the connection information in Pantheon. 
